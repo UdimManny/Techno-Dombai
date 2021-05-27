@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html/techno-dombai.com/test.techno-dombai.com
+    - export DEPLOYPATH=test.techno-dombai.com
     - /bin/cp -R * $DEPLOYPATH
