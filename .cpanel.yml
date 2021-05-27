@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/futugpay/public_html/test.techno-dombai
+    - export DEPLOYPATH=/home/futugpay/public_html/test.techno-dombai.com
     - /bin/cp -R * $DEPLOYPATH
